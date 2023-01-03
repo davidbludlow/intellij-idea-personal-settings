@@ -105,6 +105,11 @@
     <data-views />
     <general />
     <debuggers>
+      <debugger id="kotlin_debugger">
+        <configuration>
+          <option name="alwaysDoSmartStepInto" value="false" />
+        </configuration>
+      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
